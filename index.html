@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Discover simple and delicious recipes for breakfast, lunch, dinner, and desserts. Cooking Made Easy offers easy-to-follow recipes perfect for home cooks of all skill levels.">
+    <meta name="keywords" content="recipes, cooking, easy recipes, breakfast, lunch, dinner, desserts, home cooking, simple meals">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Made Easy - Simple Recipes for Everyday Fun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🍳 Cooking Made Easy</div>
+        <div class="tagline">Simple recipes for everyday fun cooking</div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="breakfast.html">Breakfast</a></li>
+            <li><a href="lunch.html">Lunch</a></li>
+            <li><a href="dinner.html">Dinner</a></li>
+  
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="page-title">Welcome to Your New Favorite Recipe Destination!</h1>
+
+        <!-- Video Section with MP4 -->
+        <section class="video-section">
+            <h2>Let's get Inspirations</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="240531_small.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p>Get inspired and discover the joy of home cooking!</p>
+        </section>
+
+        <!-- Featured Recipes Archive Section -->
+        <section class="recipe-archive">
+            <h2>Featured Recipes</h2>
+            <p class="archive-intro">Explore our collection of delicious recipes, perfect for every meal of the day!</p>
+            
+            <div class="archive-grid">
+                <!-- Breakfast Recipe Link -->
+                <a href="breakfast.html" class="archive-card">
+                    <img src="breakfast-featured.jpeg" alt="Perfect Breakfast Scramble">
+                    <div class="archive-card-content">
+                        <h3>Perfect Breakfast Scramble</h3>
+                        <p>Fluffy scrambled eggs with warm tortillas and fresh salsa. A protein-packed way to start your day!</p>
+                        <span class="archive-link-text">View Recipe →</span>
+                    </div>
+                </a>
+
+                <!-- Lunch Recipe Link -->
+                <a href="lunch.html" class="archive-card">
+                    <img src="IMG_2017.jpeg" alt="Garlic Herb Shrimp with Airfried Plantains">
+                    <div class="archive-card-content">
+                        <h3>Garlic Herb Shrimp with Plantains</h3>
+                        <p>Perfectly seasoned shrimp paired with crispy airfried plantain slices. Ready in 30 minutes!</p>
+                        <span class="archive-link-text">View Recipe →</span>
+                    </div>
+                </a>
+
+                <!-- Dinner Recipe Link -->
+                <a href="dinner.html" class="archive-card">
+                    <img src="IMG_5901.jpeg" alt="Beef Stew with Plantains and Pico">
+                    <div class="archive-card-content">
+                        <h3>Beef Stew with Plantains & Pico</h3>
+                        <p>Hearty Latin-inspired dinner with tender beef, crispy plantains, and fresh pico de gallo.</p>
+                        <span class="archive-link-text">View Recipe →</span>
+                    </div>
+                </a>
+
+                
+            </div>
+        </section>
+
+        <section class="welcome-section">
+            <h2>Discover the Joy of Cooking</h2>
+            <p>
+                Discover the joy of cooking with our collection of simple, delicious recipes perfect for everyday meals. 
+                Whether you're a beginner or an experienced cook looking for quick ideas, we've got you covered. 
+                From hearty breakfasts to delightful desserts, cooking has never been this easy and fun!
+            </p>
+        </section>
+
+        <!-- Community Feedback Form -->
+        <section class="form-section">
+            <h2>Join Our Cooking Community!</h2>
+            <p>Share your feedback, recipe suggestions, or cooking success stories. Let's make cooking easy together!</p>
+            
+            <form action="#" method="post" class="recipe-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback-type">I'd like to share:</label>
+                    <select id="feedback-type" name="feedback-type" required>
+                        <option value="">Select an option...</option>
+                        <option value="feedback">General Feedback</option>
+                        <option value="recipe-suggestion">Recipe Suggestion</option>
+                        <option value="success-story">My Cooking Success Story</option>
+                        <option value="question">Question or Help</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Brief subject line" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Share your thoughts, suggestions, or stories with us..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="newsletter" value="yes">
+                        Yes! I'd like to receive cooking tips and new recipe updates via email.
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Cooking Made Easy. All rights reserved. Made with ❤️ for home cooks everywhere.</p>
+    </footer>
+</body>
+</html>
